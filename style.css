@@ -390,3 +390,32 @@ p {
   margin-top: 8px;
   background-color: var(--color-dark-white);
 }
+
+/* My Plan */
+#plan {
+  background-color: var(--color-light-white);
+}
+
+.planset {
+  margin: 40px;
+}
+
+.plan__icon {
+  color: var(--color-green);
+  display: flex;
+  margin: 32px 0;
+}
+
+.plan__box {
+  padding: 18px;
+  background-color: var(--color-white);
+  border-radius: var(--size-border-radius);
+}
+
+.plan__box p {
+  color: var(--color-light-grey);
+}
+
+.plan__box a {
+  color: var(--color-dark-green);
+}
