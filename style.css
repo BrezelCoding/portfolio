@@ -38,6 +38,7 @@
 /* Universal tags */
 * {
   box-sizing: border-box;
+  scroll-margin-top: 50px;
 }
 
 body {
