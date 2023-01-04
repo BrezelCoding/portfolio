@@ -498,9 +498,16 @@ p {
   margin: 32px 0;
 }
 
+.contact__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact__links {
   font-size: var(--font-large);
-  margin: 24px 0;
+  margin: 24px 15px;
+  margin-right: 0px;
 }
 
 .contact__links i:hover {
