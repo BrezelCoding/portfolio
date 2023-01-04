@@ -446,43 +446,6 @@ p {
   background-color: var(--color-dark-white);
 }
 
-/* My Plan */
-#plan {
-  background-color: var(--color-light-white);
-}
-
-.planset {
-  margin: 40px;
-}
-
-.plan__icon {
-  color: var(--color-green);
-  display: flex;
-  margin: 32px 0;
-}
-
-.fa-sharp.fa-solid.fa-leaf.fa-5x {
-  margin-right: 40px;
-}
-
-.fa-solid.fa-seedling.fa-5x {
-  margin-left: 40px;
-}
-
-.plan__box {
-  padding: 18px;
-  background-color: var(--color-white);
-  border-radius: var(--size-border-radius);
-}
-
-.plan__box p {
-  color: var(--color-light-grey);
-}
-
-.plan__box a {
-  color: var(--color-dark-green);
-}
-
 /* Contact */
 #contact {
   background-color: var(--color-dark-green);
@@ -606,35 +569,6 @@ p {
 
   .project {
     flex-grow: 1;
-  }
-
-  .plan__icon i {
-    font-size: 2em;
-    content: '\f007';
-  }
-
-  .planset {
-    flex-direction: column;
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-
-  .plan__icon {
-    order: 1;
-  }
-
-  .fa-sharp.fa-solid.fa-leaf.fa-5x {
-    margin-left: 0px;
-    margin-right: 10px;
-  }
-
-  .fa-solid.fa-seedling.fa-5x {
-    margin-left: 10px;
-    margin-right: 0px;
-  }
-
-  .plan__box {
-    width: 90%;
   }
 
   .arrow-up {
