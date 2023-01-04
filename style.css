@@ -278,6 +278,10 @@ p {
   font-size: var(--font-micro);
 }
 
+.fa-laptop-code {
+  color: var(--color-orange);
+}
+
 #skills {
   background-color: var(--color-light-green2);
 }
@@ -286,7 +290,7 @@ p {
   display: flex;
   background-color: var(--color-light-grey);
   color: var(--color-light-white);
-  margin: 20px 0;
+  margin: 50px 0;
 }
 
 .skillset__title {
@@ -329,9 +333,12 @@ p {
   background-color: var(--color-grey);
 }
 
-.tools,
-.etc {
+.tools {
   padding: 20px;
+}
+
+.etc {
+  padding: 30px;
 }
 
 /* Work */
@@ -558,7 +565,22 @@ p {
     margin-bottom: 50px;
   }
 
+  .about__career {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .career {
+    margin-bottom: 20px;
+  }
+
+  .fa-graduation-cap,
+  .fa-briefcase {
+    width: 60px;
+  }
+
   .skillset {
+    margin: 20px;
     flex-direction: column;
   }
 
