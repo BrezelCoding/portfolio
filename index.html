@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>I'm Hyeon Kim.</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@400;600;700&display=swap"
@@ -49,10 +49,25 @@
           class="home__avatar"
         />
 
-        <h1 class="home__title">Hello,<br />I'm Dream Coder.</h1>
+        <h1 class="home__title">Hello, I'm Hyeon.</h1>
         <h2 class="home__description">
-          A Software Engineer currently residing in Offenburg, Germany
+          A Dream Coder currently residing in Offenburg, Germany<br /><br />
+
+          <!-- const isMyPassion = true; -->
+          <span style="color: rgb(155, 102, 204)">const</span>
+          <span style="color: rgb(194, 83, 83)"> isMyPassion</span>
+          <span style="color: rgb(155, 102, 204)">=</span>
+          <span style="color: #66bb6a">true</span
+          ><span style="color: rgb(94, 189, 189)">;</span><br />
+
+          <!-- const isLimitToLearn = false; -->
+          <span style="color: rgb(155, 102, 204)">const</span>
+          <span style="color: rgb(194, 83, 83)"> isLimitToLearn</span>
+          <span style="color: rgb(155, 102, 204)">=</span>
+          <span style="color: #66bb6a">false</span
+          ><span style="color: rgb(94, 189, 189)">;</span>
         </h2>
+
         <button class="home__contact">Contact Me</button>
       </div>
     </section>
@@ -62,23 +77,54 @@
       <h1 class="section__title">About me</h1>
 
       <p class="section__description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Hallo. Ich bin Hyeon Kim und lerne derzeit leidenschaftlich JavaScript.
+        Als ich 13 Jahre alt war, hatte ich die Erfahrung, eine kleine Homepage
+        zu erstellen, die nur in HTML geschrieben war. Damals und heute ist mein
+        Interesse an Computern immer geblieben. Deshalb möchte ich die kleinen
+        Erinnerungen an damals zurückbringen und meinen Traum wieder wahr werden
+        lassen. In Zukunft würde ich gerne guten Code erstellen, der das Leben
+        vieler Menschen verbessert und den Geschäftswert steigert.<br />
       </p>
+
+      <div class="about__me__code">
+        <h3>
+          <span style="color: rgb(59, 180, 180)">if</span>
+          <span style="color: rgb(249, 215, 0)">(</span
+          ><span style="color: rgb(110, 110, 110)">isMyPassion</span>
+          <span style="color: rgb(236, 93, 117)">&&</span>
+          <span style="color: rgb(110, 110, 110)">isLimitToLearn</span>
+          <span style="color: rgb(236, 93, 117)">!==</span>
+          <span style="color: rgb(228, 95, 47)">true</span
+          ><span style="color: rgb(249, 215, 0)">) {</span><br />
+          &nbsp;&nbsp;<span style="color: rgb(110, 110, 110)">console</span
+          ><span style="color: rgb(98, 98, 217)">.log</span
+          ><span style="color: rgb(236, 93, 117)">(</span
+          ><span style="color: rgb(59, 180, 180)">'</span
+          ><span style="color: rgb(79, 157, 79)">I will code my dream! 👊</span
+          ><span style="color: rgb(59, 180, 180)">'</span
+          ><span style="color: rgb(236, 93, 117)">)</span
+          ><span style="color: rgb(59, 180, 180)">;</span
+          ><span style="color: rgb(249, 215, 0)">}</span>
+        </h3>
+      </div>
+
       <div class="about__majors">
         <div class="major">
           <div class="major__icon">
             <i class="fa-solid fa-code fa-5x"></i>
           </div>
           <h2 class="major__title">Programming</h2>
+          <div class="major__description">C, HTML, CSS und Javascript.</div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fa-regular fa-thumbs-up fa-5x"></i>
+          </div>
+          <h2 class="major__title">My Strengths</h2>
           <div class="major__description">
-            orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ich habe eine gute Konzentration, Verantwortlichkeit, und Fleiß. Mit
+            dem Gedanken, dass es ohne mich nicht zu lösen ist, löse ich meine
+            Arbeit bis zum Schluss.
           </div>
         </div>
         <div class="major">
@@ -87,18 +133,8 @@
           </div>
           <h2 class="major__title">My Dream</h2>
           <div class="major__description">
-            orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </div>
-        </div>
-        <div class="major">
-          <div class="major__icon">
-            <i class="fa-regular fa-thumbs-up fa-5x"></i>
-          </div>
-          <h2 class="major__title">My Strengths</h2>
-          <div class="major__description">
-            orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ich würde gerne guten Code erstellen, der das Leben vieler Menschen
+            verbessert und den Geschäftswert steigert.
           </div>
         </div>
       </div>
@@ -163,6 +199,13 @@
               <div class="skill__bar">
                 <div class="skill__value" style="width: 65%"></div>
               </div>
+              <div class="skill__description">
+                <span>C</span>
+                <span>65%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 65%"></div>
+              </div>
             </div>
           </div>
           <div class="skillset__right">
@@ -171,7 +214,7 @@
               <ul class="tools__list">
                 <li><span>Visual Studio Code</span></li>
                 <li><span>Adobe Photoshop</span></li>
-                <li><span>Microsoft Office (Word, Excel, Powerpoint</span></li>
+                <li><span>Microsoft Office (Word, Excel, Powerpoint)</span></li>
               </ul>
             </div>
             <div class="etc">

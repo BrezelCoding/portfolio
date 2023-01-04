@@ -93,3 +93,9 @@ function scrollIntoView(seclector) {
   const scrollTo = document.querySelector(seclector);
   scrollTo.scrollIntoView({ behavior: 'smooth' });
 }
+
+const isMyPassion = true;
+const isLimitToLearn = false;
+if (isMyPassion && isLimitToLearn !== true) {
+  console.log('I will code my dream! 👊');
+}

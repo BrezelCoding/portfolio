@@ -211,6 +211,10 @@ p {
   margin: 80px 0;
 }
 
+.major {
+  flex: 1;
+}
+
 .major__icon {
   width: 170px;
   height: 170px;
@@ -220,6 +224,7 @@ p {
   border: 1px solid var(--color-light-green);
   border-radius: 50%;
   margin-bottom: 16px;
+  flex: 1;
 }
 
 .major__icon i {
@@ -233,11 +238,20 @@ p {
 
 .major__title {
   color: var(--color-dark-green);
+  flex: 1;
 }
 
 .major__description {
   color: var(--color-dark-grey);
   font-size: var(--font-small);
+  flex: 1;
+}
+
+.about__me__code {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: var(--color-light-green2);
+  color: var(--color-green);
 }
 
 .career__icon {
@@ -286,7 +300,8 @@ p {
 }
 
 .skill {
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .skill__description {
@@ -558,9 +573,14 @@ p {
     padding-bottom: 30px;
   }
 
+  .section__description {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .about__majors {
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 0px;
   }
 
